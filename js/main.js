@@ -27,6 +27,14 @@ var app = new Vue({
 
 })
 
+let tiempo
+function cadaTresSegundos(){
+    tiempo = setInterval(mensaje, 2000);
+}
+function mensaje(){
+    alert("Han pasado 3 segundos")
+}
+
 
 // function confirmar() {
 //     Swal.fire({
